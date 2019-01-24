@@ -4,7 +4,8 @@
   "description": "babel hands-on app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel script.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/Aprimit/basic-babel/issues"
   },
-  "homepage": "https://github.com/Aprimit/basic-babel#readme"
+  "homepage": "https://github.com/Aprimit/basic-babel#readme",
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
