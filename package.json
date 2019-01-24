@@ -1,0 +1,22 @@
+{
+  "name": "basic-babel",
+  "version": "1.0.0",
+  "description": "babel hands-on app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aprimit/basic-babel.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "Aprimit Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aprimit/basic-babel/issues"
+  },
+  "homepage": "https://github.com/Aprimit/basic-babel#readme"
+}
